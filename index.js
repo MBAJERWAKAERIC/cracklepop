@@ -19,7 +19,7 @@ let students = 20;
 students = students - 1;
 console.log(students);
 let username = window.prompt("what is your username?");
-console.log(username);*/
+console.log(username);
 let username
 
 document.getElementById("myButton").onclick = function() {
@@ -28,3 +28,22 @@ document.getElementById("myButton").onclick = function() {
     document.getElementById("myLabel").innerHTML = username;
 
 }
+
+let age = window.prompt("How old are you?");
+console.log(typeof age);
+age = Number(age);
+console.log(typeof age);
+age += 1;
+console.log("Happy birthday! you are ", age, " years old");*/
+
+let x;
+let y;
+let z;
+
+x = Number("3.14");
+y = String("3.14");
+z = Boolean("Pizza");
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
